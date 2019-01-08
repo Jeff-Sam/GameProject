@@ -37,7 +37,7 @@ public class MapLoader {
         Coordinate coordinate =
                 new Coordinate(json.get("coordinate").getAsString());
         String description = json.get("description").getAsString();
-        Ilocation location = new Location(coordinate, title, description);
+        Ilocation location = new Location(coordinate, description);
     }
     //checks to see where the player is
     public ILocation getLocation(Coordinate coordinate) {

@@ -7,8 +7,9 @@ public static enum Direction {
 	public static int y;
 	public static int z;
 	public static String javacoordinate;
+	}
 
-	public void playerInput() {
+	public static void playerInput() {
 		Scanner scanner = new Scanner(System.in);
 		String presponse = scanner.nextLine();
 		if (presponse.equals("North")) {
@@ -29,26 +30,12 @@ public static enum Direction {
 			x--;
 			javacoordinate = x + "," + y + "," + z;
 		}
-		if (presponse.equals("drink") || presponse.isEqual("attempt climb") || presponse.isEqual("attempt entry") || presponse.isEqual("shout")) {
+		if (presponse.equals("drink") || presponse.equals("attempt climb") || presponse.equals("attempt entry") || presponse.equals("shout")) {
 			z++;
 			javacoordinate = x + "," + y + "," + z;
 		}
-		if (presponse.equals("cool off") || presponse.isEqual("stay quiet")) {
+		if (presponse.equals("cool off") || presponse.equals("stay quiet")) {
 			z += 2;
 			javacoordinate = x + "," + y + "," + z;
 		}
-	}
-
-
-
-	// public static Direction read() {
-	// 	var scanner = new Scanner(System.in);
-	// 	System.out.print("Enter a direction: ");
-	// 	try {
-	// 		return Direction.valueOf(scanner.next().toUpperCase());
-	// 	} catch (IllegalArgumentException ignored) {
-	// 		System.out.println("Invalid direction.");
-	// 		return null;
-	// 	}
-	// }
-}
+	}}
