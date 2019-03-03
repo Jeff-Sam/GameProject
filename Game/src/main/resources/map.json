@@ -1,0 +1,47 @@
+{
+	"0,0": {
+		"description": "You fade in and out of consciousness with the sting of the sun blistering the back of your neck. As you rise, the softness of sand on your neck and chin quickly becomes sharp as you begin to wipe it off. As you struggle to stand and regain balance, you’re able to make out being on the shores of an unknown island. The events that led to you winding up here are unclear. What is clear however, is that your body aches and burns and that your throat stings of thirst. Looking around, you notice the cheap plastic watch you purchased a few years back from a CVS. Surrounding the timepiece (which is now cracked), is a compass tacked on as an additional selling point, the type no one ever seems to actually make use of. The time is 3:00. To the east, a few palm trees make up the entrance to an area of greenery. Directly to the west, the water of a seemingly endless ocean. (west / east)"
+	},
+	"-1,0": {
+		"description": "As you approach the water, you notice a chain of islands faded into the distance. They’re tall and sharp, a telltale sign of the volcanic activity responsible for their existence. As you step towards them, you feel the cool water hitting your feet, to be pulled away by the tide, eroding the sand beneath it. (drink / cool off / east)"
+	},
+	"1,0": {
+		"description": "You brush away some shrubbery. As you step through, you’re draped in shade. The light shines through the spaces between the palm leaves. Beneath you, grass covered with dew from the ocean mist grows. (north / south / east / west)"
+	},
+	"1,-1": {
+		"description": "You walk through the brush and come out to the sand. You're on the southern border of the island. (north)"
+	},
+	"1,1": {
+		"description": "You find some aloe plants. If only you had something to cut it down with… (north / south)"
+	},
+	"1,2": {
+		"description": "As you walk through some heavy vegetation, you walk into a break in the cover. In front of you, a sharp cliff face. (south / east )"
+	},
+	"2,2": {
+		"description": "There are fallen rocks that seem to potentially lead up the side of the cliff face. (west / attempt climb)"
+	},
+	"2,3": {
+		"description": "Slowly and methodically you make your way up the side of the mountain. There a few rocks fall to earth under the weight of your foot, but luckily, nothing slips under you. You make it to the top of the cliff face. You can clearly see above where you were travelling to the south. (north / east / climb down)"
+	},
+	"2,4": {
+		"description": "Your path is blocked by increasingly dense vegetation, to the point of being manageable. (south)"
+	},
+	"3,3": {
+		"description": "Following the trail, you come up to the center chasis of the plane. It’s painted white with red accents, but the erosion of the paint makes it more the color of sheet metal than what was intended. (attempt entry / west)"
+	},
+	"2,0": {
+		"description": "You’re hungry and your body aches as you move east. (east / west)"
+	},
+	"3,0": {
+		"description": "As you move onward, you hear rustling in the trees. (shout / stay quiet / east)"
+	},
+	"4,0": {
+		"description": "You approach what appears to be a small river. (east / west)"
+	},
+	"5,0": {
+		"description": "Walking past the river you approach some bushes and see light cracking through. (east / west)"
+	},
+	"6,0": {
+		"description": "Stepping through the bushes you enter a beach. (west / construct help sign)"
+	}
+}
